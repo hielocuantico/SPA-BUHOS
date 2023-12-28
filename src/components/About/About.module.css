@@ -1,0 +1,25 @@
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    justify-items: end;
+}
+
+.about-img {
+    background-image: url('https://files.cults3d.com/uploaders/14985402/illustration-file/23eca139-cec4-4cad-a61e-4470691a08b6/foto1buho.png');
+    background-position: center;
+    background-size: 180%;
+    width: 600px;
+    height: 200px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.about-text p {
+    font-size: larger;
+}

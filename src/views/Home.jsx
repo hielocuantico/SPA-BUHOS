@@ -4,6 +4,7 @@ import Header from '../components/Header/Header'
 import Services from '../components/Services/Services'
 import BannerTournament from '../components/BannerTournament/BannerTournament'
 import About from '../components/About/About'
+import ContactForm from '../components/ContactForm/ContactForm'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <BannerTournament/>
       <About/>
       <Services/>
+      <ContactForm/>
     </div>
   )
 }

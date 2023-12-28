@@ -5,6 +5,9 @@
   color: white;
 }
 
+
+/* Copyright Halil İbrahim Nuroğlu */
+/* ------------------------------- */
 .banner-tournament-container:before,
 .banner-tournament-container:after {
   z-index: -1;
@@ -35,3 +38,4 @@
   right: 10px;
   left: auto;
 }
+/* ------------------------------- */
