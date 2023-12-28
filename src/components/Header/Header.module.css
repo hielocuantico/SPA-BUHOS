@@ -1,0 +1,19 @@
+.header-container {
+    background-image: url("https://img.freepik.com/free-vector/smooth-white-wave-background_52683-55288.jpg?w=826&t=st=1703739155~exp=1703739755~hmac=7db35376c5faef93903147141071aebc5108b91b62c3c5514ad7ab75fe45a8e0");
+    background-size: cover;
+    height: 600px;
+    margin-top: 4.1rem;
+}
+
+.home-header {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header-text-container {
+    width: 500px;
+    margin-left: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}

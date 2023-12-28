@@ -1,4 +1,28 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.container-margin{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 :root {
+  --shadow-primary-color: rgba(0, 0, 0, 0.322);
+}
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +89,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */

@@ -1,0 +1,39 @@
+.services-container h2 {
+    text-align: center;
+}
+
+.services {
+    height: 500px;
+    display: grid;
+    grid-template-areas:
+    "area1 area1 area2"
+    "area3 area4 area5";
+    gap: 0.5rem;
+}
+
+.services div {
+    background: black;
+    border-radius: 1rem;
+    opacity: 90%;
+    color: white;
+}
+
+.services div:nth-child(1){
+    grid-area: area1;
+}
+
+.services div:nth-child(2){
+    grid-area: area2;
+}
+
+.services div:nth-child(3){
+    grid-area: area3;
+}
+
+.services div:nth-child(4){
+    grid-area: area4;
+}
+
+.services div:nth-child(5){
+    grid-area: area5;
+}
